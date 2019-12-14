@@ -15,7 +15,7 @@ end
 
 def selects_oldest_bear_and_returns_name_and_age
   "Write your SQL query here"
- 
+   "SELECT color, COUNT(color) FROM bears GROUP BY color ORDER BY COUNT(color) DESC LIMIT 1;"
   "SELECT name,age FROM bears ORDER BY age DESC LIMIT 1"
 end
 
